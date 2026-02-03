@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <section class="header">
+    <nav class="nav_container">
+      <h1 class="nav_h1">Foodie</h1>
+
+      <!-- Hamburger (MOBILE ONLY) -->
+      <div class="hamburger" id="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <!-- NAV MENU -->
+      <ul class="nav_menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contacts</a></li>
+
+        <!-- MOBILE CART -->
+        <li class="mobile_item">
+          <a href="#" class="show_cart">
+            <i class="fa-solid fa-bag-shopping "></i>
+            Cart <span class="mobile_cart icon_value">0</span>
+          </a>
+        </li>
+
+        <!-- MOBILE SIGN IN -->
+        <li class="mobile_item">
+          <a href="#" class="mobile_signin">
+            Sign In <i class="fa-solid fa-right-from-bracket"></i>
+          </a>
+        </li>
+      </ul>
+
+      <!-- DESKTOP CART -->
+      <div class="cart_items">
+        <a href="#" class="show_cart">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span class="cart_value icon_value">0</span>
+        </a>
+        <div class="nav_btn">
+          Sign in <i class="fa-solid fa-right-from-bracket"></i>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- --hero section--- -->
+  <section class="hero" id="home">
+    <div class="hero_container">
+      <div class="hero_details">
+        <h1>Enjoy Your Delicious <span>Food</span></h1>
+        <p>We will fill your tummy with delicious food with fast delivery</p>
+        <div class="hero_btns">
+          <button>Order now</button>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+        </div>
+      </div>
+
+      <div class="hero_image">
+        <img src="/images/delivery-boy.png" alt="Delivery Boy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ---work section--- -->
+
+  <section class="work" id="service">
+    <div class="work_container">
+      <div class="work_heading">
+        <p>OUR SERVICE</p>
+        <h1>How Does It Work ?</h1>
+      </div>
+      <div class="work_Details">
+        <div class="work_box">
+          <div class="work_image">
+            <img src="images/easy.jpg" alt="">
+          </div>
+          <h3>Easy To Order</h3>
+          <p>You only need a few steps in ordering food</p>
+        </div>
+        <div class="work_box">
+          <div class="work_image">
+            <img src="images/fast.jpg" alt="">
+          </div>
+          <h3>Fast Delivery</h3>
+          <p>Delivery is always ontime even faster</p>
+        </div>
+        <div class="work_box">
+          <div class="work_image">
+            <img src="/images/—Pngtree—premium quality gold label_5506471.png" alt="">
+          </div>
+          <h3>Best Quality</h3>
+          <p>Not only fast but also quality no.1</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- menu section -->
+  <section class="menu" id="menu">
+    <div class="menu_section">
+      <div class="menu_heading">
+        <p>OUR MENU</p>
+        <h1>The Most Popular</h1>
+      </div>
+      <div class="menu_container">
+        <!-- <div class="card_box">
+          <div class="card_image">
+            <img src="/images/m1.jpg" alt="">
+          </div>
+          <h3>Double Beef Burger</h3>
+          <p class="price">$9.67</p>
+          <button class="menu_btn">Add to Cart</button>
+        </div> -->
+       
+        
+       
+        
+       
+        
+  
+
+      <!-- cart table section -->
+
+        <div class="cart_table_container">
+          <h2>Your Cart</h2>
+          <div class="cart_list">
+                 <!-- <div class="cart_update">
+                     <div class="cart_image">
+                      <img src="/images/m2.jpg" alt="">
+                     </div>
+                     <div class="cart_name">
+                       <h3>Double Beef Burger</h3>
+                       <p>$ 40</p>
+                     </div>
+                     <div class="cart_quantity">
+                         <div class="cart_minus"><a href="#"><i class="fa-solid fa-minus"></i></a></div>
+                         <div class="num_quantity">1</div>
+                         <div class="cart_plus"><a href="#"><i class="fa-solid fa-plus"></i></a></div>
+                     </div>
+                 </div> -->
+                  
+                 
+                  
+
+                
+          </div>
+
+          <div class="total_cart">
+            <h4>Total : </h4>
+            <p class="price_total">0$</p>
+          </div>
+
+          <div class="cart_btn">
+            <button class="close_btn"><a href="#">Close</a></button>
+            <button><a href="#">check out</a></button>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- feed back -->
+
+  <section class="review" id="about">
+    <div class="review_container">
+      <div class="review_image">
+        <img src="/images/delivery-boy-with-phone.png" alt="">
+      </div>
+      <div class="review_details">
+        <div class="review_header">
+          <h3>OUR REVIEWS</h3>
+          <h1>What They Say?</h1>
+        </div>
+        <div class="review_slider_box">
+          <div class="review_slider_container">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper_box">
+                    <div class="swiper_headings">
+                              <div class="swiper_image">
+                                <img src="/images/profile1.jpeg" alt="">
+                              </div>
+                               <div class="swiper_name">
+                                 <h1>John Robbert</h1>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                               </div>
+                    </div>
+                    <div class="swiper_review">
+                       <div class="swiper_review_info">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate eveniet nobis eligendi quaerat delectus, autem sint doloribus ducimus voluptate sunt accusamus reprehenderit, impedit asperiores aut ut incidunt perferendis iste a.</p>
+                       </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper_box">
+                    <div class="swiper_headings">
+                              <div class="swiper_image">
+                                <img src="/images/profile2.jpeg" alt="">
+                              </div>
+                               <div class="swiper_name">
+                                 <h1>Alia Cook</h1>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                               </div>
+                    </div>
+                    <div class="swiper_review">
+                       <div class="swiper_review_info">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate eveniet nobis eligendi quaerat delectus, autem sint doloribus ducimus voluptate sunt accusamus reprehenderit, impedit asperiores aut ut incidunt perferendis iste a.</p>
+                       </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper_box">
+                    <div class="swiper_headings">
+                              <div class="swiper_image">
+                                <img src="/images/profile3.jpeg" alt="">
+                              </div>
+                               <div class="swiper_name">
+                                 <h1>Sradha Nanda</h1>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                               </div>
+                    </div>
+                    <div class="swiper_review">
+                       <div class="swiper_review_info">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate eveniet nobis eligendi quaerat delectus, autem sint doloribus ducimus voluptate sunt accusamus reprehenderit, impedit asperiores aut ut incidunt perferendis iste a.</p>
+                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Navigation buttons OUTSIDE wrapper -->
+                
+              <div class="swiper-button-next"><i class="fa-solid fa-chevron-right"></i></div>
+              <div class="swiper-button-prev"><i class="fa-solid fa-angle-left"></i></div>
+              
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="application">
+    <div class="app_section">
+       <div class="app_container">
+           <div class="app_box1">
+                 <img src="/images/—Pngtree—mobile phone with food delivery_23122162.png" alt="">
+           </div>
+           <div class="app_box2">
+                 <h3>OUR APPLICATION</h3>
+                  <h1>Simple Way To Order Your Food</h1>
+                  <p>Discover Food wherever and whenever and get your food delivery quickly</p>
+                  <button>Get The App</button>
+           </div>
+       </div>
+    </div>
+  </section>
+
+
+  <section class="subscribe" id="contact">
+    <div class="subscribe_container">
+        <div class="subscribe_Details">
+          <h3>OUR SUBSCRIBE</h3>
+          <h1>Subscribe To Our NewsLetters</h1>
+          <p>We recommended you to subscibe our newspaper,drop your email below to get daily update about us</p>
+           <div class="input_container">
+              <input type="email" name="" id="" placeholder="Enter your email address">
+              <button>Subscribe </button>
+           </div>
+        </div>
+    </div>
+  </section>
+
+
+
+<footer class="footer">
+  <div class="footer_container">
+
+    <!-- BRAND -->
+    <div class="footer_box">
+      <h1 class="footer_logo">Foodie</h1>
+      <p>
+        Delicious food delivered to your doorstep. Fast, fresh and reliable
+        food delivery service anytime.
+      </p>
+      <div class="footer_socials">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+      </div>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="footer_box">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+      </ul>
+    </div>
+
+    <!-- SUPPORT -->
+    <div class="footer_box">
+      <h3>Support</h3>
+      <ul>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="footer_box">
+      <h3>Contact</h3>
+      <p><i class="fa-solid fa-location-dot"></i> Berhampur, India</p>
+      <p><i class="fa-solid fa-phone"></i> +91 9999999</p>
+      <p><i class="fa-solid fa-envelope"></i> support@foodie.com</p>
+    </div>
+
+  </div>
+
+  <!-- COPYRIGHT -->
+  <div class="footer_bottom">
+    <p>© 2026 Foodie. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="script.js"></script>
+   
+
+</body>
+
+</html>

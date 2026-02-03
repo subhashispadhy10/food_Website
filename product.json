@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "name":"Double Beef Burger",
+        "price":"$9.67",
+        "image":"/images/m1.jpg"
+    },
+     {
+        "id":2,
+        "name":"Double Beef Burger",
+        "price":"$9.67",
+        "image":"/images/m2.jpg"
+    },
+     {
+        "id":3,
+        "name":"Double Beef Burger",
+        "price":"$9.67",
+        "image":"/images/m9.png"
+    },
+      {
+        "id":4,
+        "name":"Double Beef Burger",
+        "price":"$9.67",
+        "image":"/images/m4.jpg"
+    },
+     {
+        "id":5,
+        "name":"Double Beef Burger",
+        "price":"$9.67",
+        "image":"/images/m5.jpg"
+    },
+     {
+        "id":6,
+        "name":"Double Beef Burger",
+        "price":"$9.67",
+        "image":"/images/m6.png"
+    },
+     {
+        "id":7,
+        "name":"Double Beef Burger",
+        "price":"$9.67",
+        "image":"/images/m7.png"
+    },
+    {
+        "id":8,
+        "name":"Double Beef Burger",
+        "price":"$9.67",
+        "image":"/images/m8.png"
+    }
+
+]
